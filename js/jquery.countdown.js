@@ -103,7 +103,7 @@
 			since: null,
 			timezone: null,
 			serverSync: null,
-			format: 'dHMS',
+			format: 'DHMS',
 			layout: '',
 			compact: false,
 			padZeroes: false,
