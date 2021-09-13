@@ -266,6 +266,10 @@ overflow:visible;
 	.logo-small{
 	margin-bottom:20px;
 	}
+
+	#lime{
+		color: #e9f1d6;
+	}
 		
 	header.de_header_2{
 		height:125px;	
