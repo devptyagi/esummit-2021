@@ -5510,7 +5510,10 @@ color:#606060;
 }
 
 /* video button begin */
-
+.row{
+	justify-content: space-between;
+	align-items: flex-end;
+}
 .video-play-button {
   position: absolute;
   z-index: 10;
