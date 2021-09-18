@@ -28,6 +28,30 @@
     <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="css/twentytwenty.css" type="text/css">
+            <!-- custom css for speakers section -->
+    <style>
+        .team-des{
+		width:100%;
+		height:100%;
+		padding:8px;
+		padding-bottom:0;
+		position:absolute;
+		z-index:100;
+		top:70%;
+		background:rgba(17, 17, 17, 0.7);
+		color:#ccc;
+	}
+	
+	.team-des h3{
+		font-size: 1.2rem;
+		margin:1px;
+	}
+		
+	.team-des p.lead{
+		font-size: .8rem;
+		margin: 0px;
+	}
+    </style>
 
     <!-- custom background -->
     <link rel="stylesheet" href="css/bg.css" type="text/css">
@@ -110,9 +134,9 @@
 								<li><a href="#section-features">Events<span></span></a></li>
 								<li><a href="#section-speakers">Speakers<span></span></a></li>
 								<li><a href="#section-schedule">Schedule<span></span></a></li>
-								<li><a href="#section-ticket">Ticket<span></span></a></li>
-								<li><a href="#section-sponsors">Sponsors<span></span></a></li>
-								<li><a href="#section-register">Register<span></span></a></li>
+								<!-- <li><a href="#section-ticket">Ticket<span></span></a></li> -->
+								<!-- <li><a href="#section-sponsors">Sponsors<span></span></a></li> -->
+								<li><a href="#section-register">FAQ<span></span></a></li>
                                 <!-- <li><a href="news-dark.html">News<span></span></a></li> -->
 							</ul>
 							<!-- mainmenu close -->
@@ -132,15 +156,16 @@
         <div id="content" class="no-bottom no-top">
 
             <!-- revolution slider begin -->
-            <section id="section-hero" class="fullwidthbanner-container" aria-label="section-slider" data-bgcolor="#101010">
+            <!-- <div style="color: #1010109c;"></div> -->
+            <section id="section-hero"  class="fullwidthbanner-container" aria-label="section-slider" data-bgcolor="#1010109c">
                 <div id="slider-revolution">
                     <ul>
                         <li data-transition="random-premium" data-slotamount="10" data-masterspeed="200" data-thumb="">
                             <!--  BACKGROUND IMAGE -->
-							<img alt="" class="rev-slidebg" data-bgparallax="0" src="images-event/slider/c1.png">
+							<img alt=""  class="rev-slidebg" data-bgparallax="0" src="images-event/slider/c1.png" >
                         </li>
 						
-						<li data-transition="random-premium" data-slotamount="10" data-masterspeed="200" data-thumb="">
+						<li data-transition="random-premium"  data-slotamount="10" data-masterspeed="200" data-thumb="">
                             <!--  BACKGROUND IMAGE -->
 							<img alt="" class="rev-slidebg" data-bgparallax="0" src="images-event/slider/c2.png">
                         </li>
@@ -224,7 +249,7 @@
                                     <div class="d-lg-flex justify-content-center sm-hide">
                                         <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-calendar-check-o id-color"></i>October
                     15th to 17th</div>
-                                        <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-user id-color"></i>12 Speakers</div>
+                                        <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-user id-color"></i>4 Speakers</div>
                                         <!-- <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-map-marker id-color"></i>Palo Alto, California</div> -->
                                     </div>
                             </div>
@@ -252,7 +277,7 @@
                                 data-paddingbottom="[12,12,12,12]"
                                 data-paddingleft="[20,20,20,20]"
                             >
-                                <a href="#section-ticket" class="btn-custom text-white scroll-to">Get Ticket</a>
+                                <a href="#section-ticket" style="background-color: #DB7C43;" class="btn-custom text-white scroll-to">Register now</a>
                             </div>
 							
 							<div
@@ -308,7 +333,7 @@
 								
 								<div class="spacer10"></div>
 								
-								<a href="#section-speakers" class="btn-custom font-weight-bold text-white sm-mb-30 scroll-to">The Speakers</a>
+								<!-- <a href="#section-speakers" class="btn-custom font-weight-bold text-white sm-mb-30 scroll-to">The Speakers</a> -->
                             </div>
 							
 							<div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
@@ -431,8 +456,8 @@
             <!-- section close -->
 			
 			<!-- section begin -->
-            <section id="section-speakers" class="text-light" data-bgimage="url(images-event/bg/b3.png) fixed top center" data-stellar-background-ratio=".2">
-				<div class="wm wm-border dark wow fadeInDown"style="-webkit-text-stroke-width: 2px;">speakers</div>
+            <section id="section-speakers" class="text-light" data-bgimage="url(images-event/bg/b1.png) fixed top center" data-stellar-background-ratio=".2">
+				<div class="wm wm-border dark wow fadeInDown"style="-webkit-text-stroke-width: 3px;">Speakers</div>
                 <div class="container">
                     <div class="row">
 						<div class="col-md-6 offset-md-3 text-center wow fadeInUp">
@@ -443,13 +468,44 @@
 						
 						<div class="clearfix"></div>
                       
-                       <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+                        <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/misc/up.jpg" class="img-responsive" alt="" />
+									<img src="images-event/team/dr_srinivas_chenduru.jfif" class="img-responsive" alt="" />
 								</div>
-								<div class="team-desc">
+                                <div class="team-des text-center">
+                                        <h3>Dr. Srinivas Chunduru</h3>
+                                        <p class="lead">Chief Advisor - Crowdera | Member of Board - AF Capital | Ex Senior Advisor - OLA</p>
+                                    </div>
+								<!-- <div class="team-desc">
+									<h3>Dr. Srinivas Chunduru</h3>
+									<p class="lead">Chief Advisor - Crowdera| Member of Board - AF Capital | Ex Senior Advisor - OLA</p>
+									<div class="small-border"></div>
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+
+									<div class="social">
+										<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+										<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
+									</div>
+								</div> -->
+							</div>
+							<!-- team close -->
+						</div>
+                      
+						<div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+							<!-- team member -->
+							<div class="de-team-list">
+								<div class="team-pic">
+									<img src="images-event/team/anubhav_dubey.jfif" class="img-responsive" alt="" />
+								</div>
+                                <div class="team-des text-center">
+                                        <h3>Anubhav Dubey</h3>
+                                        <p class="lead">Founder - Chai Sutta Bar | TEDx Speaker | UNYCC awardee</p>
+                                    </div>
+								<!-- <div class="team-desc">
 									<h3>Revealing soon</h3>
 									<p class="lead">Stay tuned!</p>
 									<div class="small-border"></div>
@@ -461,18 +517,23 @@
 										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
 										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<!-- team close -->
 						</div>
+						
 						
 						<div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/misc/up.jpg" class="img-responsive" alt="" />
+									<img src="images-event/team/priya_guliani.jfif" class="img-responsive" alt="" />
 								</div>
-								<div class="team-desc">
+                                <div class="team-des text-center">
+                                        <h3>Priya Guliani</h3>
+                                        <p class="lead">UK President - GBA(Government Blockchain Association) | Ex-Accenture</p>
+                                    </div>
+								<!-- <div class="team-desc">
 									<h3>Revealing soon</h3>
 									<p class="lead">Stay tuned!</p>
 									<div class="small-border"></div>
@@ -484,43 +545,30 @@
 										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
 										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<!-- team close -->
 						</div>
 						
-						<div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
-							<!-- team member -->
-							<div class="de-team-list">
-								<div class="team-pic">
-									<img src="images-event/misc/up.jpg" class="img-responsive" alt="" />
-								</div>
-								<div class="team-desc">
-									<h3>Revealing soon</h3>
-									<p class="lead">Stay tuned!</p>
-									<div class="small-border"></div>
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-
-									<div class="social">
-										<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-										<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
-									</div>
-								</div>
-							</div>
-							<!-- team close -->
-						</div>
 						
-						<div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+
+                         <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
 							<!-- team member -->
 							<div class="de-team-list">
+                                
 								<div class="team-pic">
-									<img src="images-event/misc/up.jpg" class="img-responsive" alt="" />
+                                     
+									<img src="images-event/team/meenu_bhatia.jfif" class="img-responsive" alt=""/>
+                                
+                                   
 								</div>
-								<div class="team-desc">
-									<h3>Revealing soon</h3>
-									<p class="lead">Stay tuned!</p>
+                                <div class="team-des text-center">
+                                        <h3  >Meenu Bhatia</h3>
+                                        <p class="lead">Co-Founder YUGMA | Ex-Godrej | Ex-Piramal Group | Startup Coach</p>
+                                    </div>
+								<!-- <div class="team-desc">
+									<h3>Meenu Bhatia</h3>
+									<p class="lead">Co-Founder YUGMA | Ex-Godrej | Ex-Piramal Group | Startup Coach</p>
 									<div class="small-border"></div>
 									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 
@@ -530,11 +578,10 @@
 										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
 										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<!-- team close -->
 						</div>
-
 						<div class="clearfix"></div>
 
                     </div>
@@ -1284,11 +1331,11 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-8 col-md-7">
-                            <h3 class="size-2 no-margin">Get your seat before the price goes up</h3>
+                            <h3 class="size-2 no-margin">Break the monotony with E-cell JUIT</h3>
                         </div>
 
                         <div class="col-lg-4 col-md-5 text-right">
-                            <a href="#section-ticket" class="btn-custom text-white scroll-to">Get Ticket</a>
+                            <a href="#section-ticket" class="btn-custom text-white scroll-to">Register now</a>
                         </div>
                     </div>
                 </div>
@@ -1372,9 +1419,9 @@
             
             <div class="p-4 border">
                 <div class="text-center">
-                    <h1>485 of 1000</h1>
-                   <p>Seats available</p>
-                    <a href="#section-ticket" class="btn-custom btn-fullwidth text-white scroll-to">Get Your Ticket</a>
+                    <h1>140+</h1>
+                   <p>Colleges</p>
+                    <a href="#section-ticket" class="btn-custom btn-fullwidth text-white scroll-to">Register now</a>
                 </div>
             </div>
 
