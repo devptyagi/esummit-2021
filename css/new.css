@@ -1,0 +1,29 @@
+.showoff{
+    padding: 40px 40px 20px 40px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #1D1D1D 0%, #4d4d4d3a 100%);
+    box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.imgstyle{
+    border-radius: 50%;
+    max-height: 175px;
+    max-width: 175px;
+    transition: 0.5s;
+}
+
+
+.namestyle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 35px;
+    color: #E9F1D6;
+}
+
+.teamstyle{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 45px;
+}
