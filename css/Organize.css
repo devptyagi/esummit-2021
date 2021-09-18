@@ -1,0 +1,90 @@
+.num_1{
+  font-size: 150px;
+  /* margin-right: 900px; */
+  font-family: 'Dosis', sans-serif;
+  margin-top: -25px;
+  text-align: left;
+}
+.num_2{
+  /* padding-left: 285px; */
+  text-align:left;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.num_3{
+  font-size: 150px;
+  /* margin-right: 930px; */
+  font-family: 'Dosis', sans-serif;
+  /* padding-left: 170px; */
+  margin-top: -190px;
+}
+#section-prize{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.class_1{
+  text-align: left;
+}
+/* .num_5{
+  line-height: 2px;
+} */
+
+#id_1{
+  color: #DB7C43;
+   font-size: 7rem;
+  margin-bottom: -50px;
+}
+#id_2{
+  font-size: 1.4rem; text-align: left;font-family: 'Rubik', sans-serif; letter-spacing: 2px; padding-right: 50px;
+  margin-bottom: -20px;
+}
+#id_3{
+  width: 90%;
+  font-size: 1.4rem;letter-spacing: 2px;letter-spacing: 2px;text-align: left;font-family: 'Rubik', sans-serif;
+  margin-bottom: -35px;
+}
+#id_4{
+  ont-size: 2.2rem;color: 
+   #f18c4f; text-align: 
+   left;font-family: 'Rubik', sans-serif;
+}
+#id_5{
+  color: #f18c4f;
+}
+#id_6{
+  font-size: 1.4rem;letter-spacing: 2px;text-align: left;font-family: 'Rubik', sans-serif;
+}
+.tshirt{
+  margin-left: 950px;
+  margin-bottom: -800px;
+}
+@media only screen and (max-width: 420px){
+  #id_1{
+    color: #DB7C43;
+     font-size: 5rem;
+    margin-bottom: -50px;
+  }
+  #id_2{
+    font-size: 0.9rem; text-align: left;font-family: 'Rubik', sans-serif; letter-spacing: 2px; padding-right: 50px;
+    margin-bottom: -20px;
+  }
+  #id_3{
+    font-size: 1rem;letter-spacing: 2px;letter-spacing: 2px;text-align: left;font-family: 'Rubik', sans-serif;
+    margin-bottom: -35px;
+  }
+  #id_4{
+    ont-size: 2rem;color: 
+     #f18c4f; text-align: 
+     left;font-family: 'Rubik', sans-serif;
+  }
+  #id_5{
+    color: #f18c4f;
+  }
+  #id_6{
+    font-size: 1rem;letter-spacing: 2px;text-align: left;font-family: 'Rubik', sans-serif; 
+  }
+  }
+}
