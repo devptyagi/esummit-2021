@@ -26,9 +26,35 @@
     <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
+    <link rel="stylesheet" href="css/new.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="css/twentytwenty.css" type="text/css">
-
+    <link rel="stylesheet" href="css/Organize.css">
+    <link rel="icon" href="images-event/misc/tabicon.png">
+            <!-- custom css for speakers section -->
+    <style>
+        .team-des{
+		width:100%;
+		height:100%;
+		padding:8px;
+		padding-bottom:0;
+		position:absolute;
+		z-index:100;
+		top:70%;
+		background:rgba(17, 17, 17, 0.7);
+		color:#ccc;
+	}
+	
+	.team-des h3{
+		font-size: 1.2rem;
+		margin:1px;
+	}
+		
+	.team-des p.lead{
+		font-size: .8rem;
+		margin: 0px;
+	}
+    </style>
     <!-- custom background -->
     <link rel="stylesheet" href="css/bg.css" type="text/css">
 
@@ -50,7 +76,24 @@
 	<!-- custom font -->
 	<link rel="stylesheet" href="css/font-style.css" type="text/css">
     <script src="https://kit.fontawesome.com/de5b3c8323.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 
 <body id="homepage">
 
@@ -110,9 +153,9 @@
 								<li><a href="#section-features">Events<span></span></a></li>
 								<li><a href="#section-speakers">Speakers<span></span></a></li>
 								<li><a href="#section-schedule">Schedule<span></span></a></li>
-								<li><a href="#section-ticket">Ticket<span></span></a></li>
-								<li><a href="#section-sponsors">Sponsors<span></span></a></li>
-								<li><a href="#section-register">Register<span></span></a></li>
+								<li><a href="#section-ticket">Team<span></span></a></li>
+								<!-- <li><a href="#section-sponsors">Sponsors<span></span></a></li> -->
+								<li><a href="#section-register">FAQ<span></span></a></li>
                                 <!-- <li><a href="news-dark.html">News<span></span></a></li> -->
 							</ul>
 							<!-- mainmenu close -->
@@ -134,13 +177,13 @@
             <!-- revolution slider begin -->
             <section id="section-hero" class="fullwidthbanner-container" aria-label="section-slider" data-bgcolor="#1D1D1D">
                 <div id="slider-revolution">
-                    <ul>
+                    <ul style="opacity: 0.6;">
                         <li data-transition="random-premium" data-slotamount="10" data-masterspeed="200" data-thumb="">
                             <!--  BACKGROUND IMAGE -->
-							<img alt="" class="rev-slidebg" data-bgparallax="0" src="images-event/slider/c1.png">
+							<img alt=""  class="rev-slidebg" data-bgparallax="0" src="images-event/slider/c1.png" >
                         </li>
 						
-						<li data-transition="random-premium" data-slotamount="10" data-masterspeed="200" data-thumb="">
+						<li data-transition="random-premium"  data-slotamount="10" data-masterspeed="200" data-thumb="">
                             <!--  BACKGROUND IMAGE -->
 							<img alt="" class="rev-slidebg" data-bgparallax="0" src="images-event/slider/c2.png">
                         </li>
@@ -224,7 +267,7 @@
                                     <div class="d-lg-flex justify-content-center sm-hide">
                                         <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-calendar-check-o id-color"></i>October
                     15th to 17th</div>
-                                        <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-user id-color"></i>12 Speakers</div>
+                                        <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-user id-color"></i>4 Speakers</div>
                                         <!-- <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-map-marker id-color"></i>Palo Alto, California</div> -->
                                     </div>
                             </div>
@@ -252,7 +295,7 @@
                                 data-paddingbottom="[12,12,12,12]"
                                 data-paddingleft="[20,20,20,20]"
                             >
-                                <a href="#section-ticket" class="btn-custom text-white scroll-to">Get Ticket</a>
+                                <a href="https://register.tiedcjuit.in/" target="_blank" style="background-color: #DB7C43;" class="btn-custom text-white scroll-to">Register now</a>
                             </div>
 							
 							<div
@@ -308,7 +351,7 @@
 								
 								<div class="spacer10"></div>
 								
-								<a href="#section-speakers" class="btn-custom font-weight-bold text-white sm-mb-30 scroll-to">The Speakers</a>
+								<!-- <a href="#section-speakers" class="btn-custom font-weight-bold text-white sm-mb-30 scroll-to">The Speakers</a> -->
                             </div>
 							
 							<div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
@@ -347,44 +390,42 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".25s">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0s">
                             <div class="box-number square">
                                 <i class="bg-color hover-color-2 fas fa-lightbulb text-light"></i>
                                 <div class="text">
                                     <h3><span>
                                         Ideathon</span></h3>
-                                    <p>Ideate and develop solutions to the problem
-                                        statements provided by HPCD, in the vision of future startup prospects.</p>
+                                    <p>Imbue the spirit of entrepreneurship as you Ideate and build solutions to real-world problems provided by HPCD in view of future startup prospectives.</p>
                                 </div>
                             </div>
                         </div>
                         
                         <div class="spacer-single sm-hide"></div>
 
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".10s">
                             <div class="box-number square">
                                 <i class="bg-color hover-color-2 fa fa-sitemap text-light"></i>
                                 <div class="text">
                                     <h3><span>Creators Table</span></h3>
-                                    <p>Open discussion where people discuss and
-                                        deliberate over topics and subjects that spark their interests.</p>
+                                    <p>Discussion tables where people with similar interests talk and deliberate on issues and themes that pique their attention in an open forum.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".75s">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".10s">
                             <div class="box-number square">
                                 <i class="bg-color hover-color-2 fas fa-palette text-light"></i>
                                 <div class="text">
                                     <h3><span>Design-Develop</span></h3>
-                                    <p>Participants get to show their designing skills,unleashing their creativity over problem statements shared before time.</p>
+                                    <p>Participants demonstrate their designing skills, unleashing their creativity as they design develop and deliver over previously shared problem statements.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="spacer-single sm-hide"></div>
 
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="1s">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".15s">
                             <div class="box-number square">
                                <i class="bg-color hover-color-2 fas fa-bullhorn text-light" ></i>
                                 <div class="text">
@@ -395,7 +436,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="1.25s">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".15s">
                             <div class="box-number square">
                                 <i class="bg-color hover-color-2 fas fa-hand-holding-usd text-light"></i>
                                 <div class="text">
@@ -407,7 +448,7 @@
 
                         <div class="spacer-single sm-hide"></div>
 
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="1.5s">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".20s">
                             <div class="box-number square">
                                 <i class="bg-color hover-color-2 fas fa-users text-light"></i>
                                 <div class="text">
@@ -417,7 +458,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 wow fadeIn" data-wow-delay="1.75s">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".20s">
                             <div class="box-number square">
                                 <i class="bg-color hover-color-2 fas fa-gamepad text-light"></i>
                                 <div class="text">
@@ -433,8 +474,8 @@
             <!-- section close -->
 			
 			<!-- section begin -->
-            <section id="section-speakers" class="text-light" data-bgimage="url(images-event/bg/b3.png) fixed top center" data-stellar-background-ratio=".2">
-				<div class="wm wm-border dark wow fadeInDown"style="-webkit-text-stroke-width: 2px;">speakers</div>
+            <section id="section-speakers" class="text-light" data-bgimage="url(images-event/bg/b2.png) fixed top center" data-stellar-background-ratio=".2">
+				<div class="wm wm-border dark wow fadeInDown"style="-webkit-text-stroke-width: 3px;">Speakers</div>
                 <div class="container">
                     <div class="row">
 						<div class="col-md-6 offset-md-3 text-center wow fadeInUp">
@@ -445,13 +486,44 @@
 						
 						<div class="clearfix"></div>
                       
-                       <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+                        <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/misc/up.jpg" class="img-responsive" alt="" />
+									<img src="images-event/team/dr_srinivas_chenduru.jfif" class="img-responsive" alt="" />
 								</div>
-								<div class="team-desc">
+                                <div class="team-des text-center">
+                                        <h3>Dr. Srinivas Chunduru</h3>
+                                        <p class="lead">Chief Advisor - Crowdera | Member of Board - AF Capital | Ex Senior Advisor - OLA</p>
+                                    </div>
+								<!-- <div class="team-desc">
+									<h3>Dr. Srinivas Chunduru</h3>
+									<p class="lead">Chief Advisor - Crowdera| Member of Board - AF Capital | Ex Senior Advisor - OLA</p>
+									<div class="small-border"></div>
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+
+									<div class="social">
+										<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+										<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
+									</div>
+								</div> -->
+							</div>
+							<!-- team close -->
+						</div>
+                      
+						<div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+							<!-- team member -->
+							<div class="de-team-list">
+								<div class="team-pic">
+									<img src="images-event/team/anubhav_dubey.jfif" class="img-responsive" alt="" />
+								</div>
+                                <div class="team-des text-center">
+                                        <h3>Anubhav Dubey</h3>
+                                        <p class="lead">Founder - Chai Sutta Bar | TEDx Speaker | UNYCC awardee</p>
+                                    </div>
+								<!-- <div class="team-desc">
 									<h3>Revealing soon</h3>
 									<p class="lead">Stay tuned!</p>
 									<div class="small-border"></div>
@@ -463,18 +535,23 @@
 										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
 										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<!-- team close -->
 						</div>
+						
 						
 						<div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/misc/up.jpg" class="img-responsive" alt="" />
+									<img src="images-event/team/priya_guliani.jfif" class="img-responsive" alt="" />
 								</div>
-								<div class="team-desc">
+                                <div class="team-des text-center">
+                                        <h3>Priya Guliani</h3>
+                                        <p class="lead">UK President - GBA(Government Blockchain Association) | Ex-Accenture</p>
+                                    </div>
+								<!-- <div class="team-desc">
 									<h3>Revealing soon</h3>
 									<p class="lead">Stay tuned!</p>
 									<div class="small-border"></div>
@@ -486,43 +563,26 @@
 										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
 										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<!-- team close -->
 						</div>
 						
-						<div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
-							<!-- team member -->
-							<div class="de-team-list">
-								<div class="team-pic">
-									<img src="images-event/misc/up.jpg" class="img-responsive" alt="" />
-								</div>
-								<div class="team-desc">
-									<h3>Revealing soon</h3>
-									<p class="lead">Stay tuned!</p>
-									<div class="small-border"></div>
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-
-									<div class="social">
-										<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-										<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
-									</div>
-								</div>
-							</div>
-							<!-- team close -->
-						</div>
 						
-						<div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+
+                         <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/misc/up.jpg" class="img-responsive" alt="" />
+									<img src="images-event/team/meenu_bhatia.jfif" class="img-responsive" alt=""/>
 								</div>
-								<div class="team-desc">
-									<h3>Revealing soon</h3>
-									<p class="lead">Stay tuned!</p>
+                                <div class="team-des text-center">
+                                        <h3  >Meenu Bhatia</h3>
+                                        <p class="lead">Co-Founder YUGMA | Ex-Godrej | Ex-Piramal Group | Startup Coach</p>
+                                    </div>
+								<!-- <div class="team-desc">
+									<h3>Meenu Bhatia</h3>
+									<p class="lead">Co-Founder YUGMA | Ex-Godrej | Ex-Piramal Group | Startup Coach</p>
 									<div class="small-border"></div>
 									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 
@@ -532,11 +592,114 @@
 										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
 										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 							<!-- team close -->
 						</div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+							<!-- team member -->
+							<div class="de-team-list">
+								<div class="team-pic">
+									<img src="images-event/team/placeholder.png" class="img-responsive" alt=""/>
+								</div>
+                                <div class="team-des text-center">
+                                        <h3  >Revealing soon</h3>
+                                        <p class="lead">Stay tuned!</p>
+                                    </div>
+								<!-- <div class="team-desc">
+									<h3>Meenu Bhatia</h3>
+									<p class="lead">Co-Founder YUGMA | Ex-Godrej | Ex-Piramal Group | Startup Coach</p>
+									<div class="small-border"></div>
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 
+									<div class="social">
+										<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+										<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
+									</div>
+								</div> -->
+							</div>
+							<!-- team close -->
+						</div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+							<!-- team member -->
+							<div class="de-team-list">
+								<div class="team-pic">
+									<img src="images-event/team/placeholder.png" class="img-responsive" alt=""/>
+								</div>
+                                <div class="team-des text-center">
+                                        <h3  >Revealing soon</h3>
+                                        <p class="lead">Stay tuned!</p>
+                                    </div>
+								<!-- <div class="team-desc">
+									<h3>Meenu Bhatia</h3>
+									<p class="lead">Co-Founder YUGMA | Ex-Godrej | Ex-Piramal Group | Startup Coach</p>
+									<div class="small-border"></div>
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+
+									<div class="social">
+										<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+										<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
+									</div>
+								</div> -->
+							</div>
+							<!-- team close -->
+						</div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+							<!-- team member -->
+							<div class="de-team-list">
+								<div class="team-pic">
+									<img src="images-event/team/placeholder.png" class="img-responsive" alt=""/>
+								</div>
+                                <div class="team-des text-center">
+                                       <h3  >Revealing soon</h3>
+                                        <p class="lead">Stay tuned!</p>
+                                    </div>
+								<!-- <div class="team-desc">
+									<h3>Meenu Bhatia</h3>
+									<p class="lead">Co-Founder YUGMA | Ex-Godrej | Ex-Piramal Group | Startup Coach</p>
+									<div class="small-border"></div>
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+
+									<div class="social">
+										<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+										<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
+									</div>
+								</div> -->
+							</div>
+							<!-- team close -->
+						</div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 mb30 wow fadeInUp">
+							<!-- team member -->
+							<div class="de-team-list">
+								<div class="team-pic">
+									<img src="images-event/team/placeholder.png" class="img-responsive" alt=""/>
+								</div>
+                                <div class="team-des text-center">
+                                      <h3  >Revealing soon</h3>
+                                        <p class="lead">Stay tuned!</p>
+                                    </div>
+								<!-- <div class="team-desc">
+									<h3>Meenu Bhatia</h3>
+									<p class="lead">Co-Founder YUGMA | Ex-Godrej | Ex-Piramal Group | Startup Coach</p>
+									<div class="small-border"></div>
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+
+									<div class="social">
+										<a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+										<a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+										<a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+										<a href="#"><i class="fa fa-skype fa-lg"></i></a>
+									</div>
+								</div> -->
+							</div>
+							<!-- team close -->
+						</div>
 						<div class="clearfix"></div>
 
                     </div>
@@ -911,7 +1074,7 @@
                 </div>
             </section>
             <!-- section close -->
-			
+
 			<!-- section begin -->
             <!-- <section id="section-ticket" class="text-light" data-bgimage="url(images-event/bg/b4.png) fixed top">
                 <div class="wm wm-border dark wow fadeInDown">tickets</div>
@@ -984,6 +1147,280 @@
                     </div>
                 </div>
             </section> -->
+            
+            <section id="section-ticket" class="text-light" data-bgimage="url(images-event/teams/teamsbg.png) fixed top center" data-stellar-background-ratio=".2">
+				<div class="wm wm-border dark wow fadeInDown"style="-webkit-text-stroke-width: 2px;">Team</div>
+                <div class="container">
+                    <div class="row" style="justify-content: space-evenly;">
+						<div class="col-md-6  text-center wow fadeInUp">
+                            <h1>Our Team</h1>
+                            <div class="separator"><span><i class="fa fa-square"></i></span></div>
+                            <div class="spacer-single"></div>
+                        </div>
+						
+						<div class="clearfix"></div>
+                        
+                        <!-- Team name -->
+                        <h2 class="text-center col-md-12 pt20 teamstyle" style="color: #F28D4F;">Conveners</h2>
+
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Suryansh.jfif" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle" style="font-size: 25px;">Suryansh Saraswat</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/ssuryansh__/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/saraswatsuryansh99/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Shreya.webp" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Shreya Jayant</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/hithisisshreya/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/shreyajayant20/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+                        <!-- Team name -->
+                        <h2 class="text-center col-md-12 pt20 teamstyle" style="color: #F28D4F;">Events & Operations</h2>
+
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Devansh.jpg" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Devansh Gupta</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/devansh_1512/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/devansh1512/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Pranjal.JPG" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Pranjal Bansal</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/pranjal__bansal/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/pranjal-bansal-1511b8192/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+                        <!-- Team name -->
+                        <h2 class="text-center col-md-12 pt20 teamstyle" style="color: #F28D4F;">Corporate Relations</h2>
+
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Aishani.jpg" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Aishani Pachauri</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/aishanii.pachauri/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/aishanipachauri/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Aryaman.jpg" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Aryaman Sinha</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/arysin040/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/aryaman-sinha1/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+                        <!-- Team name -->
+                        <h2 class="text-center col-md-12 pt20 teamstyle" style="color: #F28D4F;">PR & Marketing</h2>
+
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Vaibhav.jpg" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Vaibhav Sharma</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/vaibhavxsh/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/vaibhav-sharma-340206195/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/harshit.jpeg" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Harshit Singh</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/wtfharshit/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/1208harshitsingh/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Vishalika.jpeg" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Vishalika Katiyar</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/vishhhalika/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/vishalikakatiyar/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+                        <!-- Team name -->
+                        <h2 class="text-center col-md-12 pt20 teamstyle" style="color: #F28D4F;">Tech & Design</h2>
+
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/simran.jfif" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Simran Verma</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/simranvermaaaa/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/simran-verma2001/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Dev.jpeg" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Dev Tyagi</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/_devtyagi_/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/devtyagi/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Aharnish.jpeg" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Aharnish Dwivedi</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/ahaharnish/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/aharnish-dwivedi-846313192/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+                        <!-- Team name -->
+                        <h2 class="text-center col-md-12 pt20 teamstyle" style="color: #F28D4F;">Sponsorship</h2>
+
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Jayant.jfif" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Jayant Sharma</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/_sharma_ji_ka_ladka_/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/jayant-kumar-sharma/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+                        <!-- team member -->
+                        <div class="col-lg-4 mb30 wow fadeInUp" style="max-width: 320px;">
+							<div class="de-team-list text-center showoff" style="border-radius:20px ;">
+                                <div>
+                                    <img src="images-event/teams/Shreesh.png" class= "imgstyle">
+                                </div>
+
+								<div>
+									<h3 class="pt20 namestyle">Shreesh Tripathi</h3>
+									<div class="social" style="margin:20px 0px 0px 0px;">
+										<a href="https://www.instagram.com/0shreesh0/"><i class="fa fa-instagram fa-lg"></i></a>
+										<a href="https://www.linkedin.com/in/shreesh-tripathi/"><i class="fa fa-linkedin fa-lg"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+                        
+						<div class="clearfix"></div>
+                    </div>
+                </div>
+            </section>
+
             <!-- section close -->
 			
 			<!-- section begin -->
@@ -1039,7 +1476,7 @@
 									<span class="title">Exceeded my expectations!</span>
 									Just wow! I'm always impressed with the event. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
 
-									<span class="name">Sandra, Customer</span>
+									<span class="name">Sandra, Customer</spgian>
 								</blockquote>
 								
 								<blockquote class="testimonial-big">
@@ -1124,7 +1561,63 @@
                 </div>             
             </section>
             <!-- section close -->
-			
+            <!-- <section id="section-prize" class="text-light_1">
+                <div class="wm wm-border dark wow fadeInDown">Prizes</div>
+				<div class="container">
+                    <div class="row">
+						<div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                            <h1>Prize Pool</h1>
+                            <div class="separator"><span><i class="fa fa-square"></i></span></div>
+                            <div class="spacer-single"></div>
+                        </div>
+                   
+                        </div>
+                        <div class="num_2">
+                            <div> 
+                                <h1 class="num_1" style="color:#DB7C43;">75k+</h1>
+                                <!-- <h1 class="num_3" style="color:#DB7C43;">k+</h1> -->
+                            <!-- </div>
+                            <br>
+                            <br>
+                            <h2>Cash Prize goodies and many more</h2><br>
+                            <h2>Merchandise worth <h2 style="color: 
+                                #DB7C43;"> 50K+</h2><h2> for all the participants</h2></h2><br>
+                            <h2>Certificate of Participation</h2>
+                        </div> -->
+                        
+                        <section id="section-register" class="text-light" data-bgimage="url('images-event/prize/Desktop - 4.png') fixed top center" data-stellar-background-ratio=".2">
+                            <img class="tshirt" style="height: 450px;" src="images-event\prize\tshirtcups.png" alt="">
+                            <div class="wm wm-border dark wow fadeInDown">Prizes</div>
+                          
+                            <!-- ======= F.A.Q Section ======= -->
+                    
+                        <div class="container">
+                            
+                            <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                                <h1>Prize Pool</h1>
+                                <div class="separator"><span><i class="fa fa-square"></i></span></div>
+                                <div class="spacer-single"></div>
+                                <div id="text_prize" class="class_1">
+                                    <h2 id ="id_1"> 75k+ </h2>
+                                        <br>
+                                        <br>
+                                    <h2 id="id_2" class="font-weight-lighter">Worth of Prizes!</h2>
+                                    <br>
+                                    <h2 id="id_4">Does that rev up the heat?</h2>
+                                    <br>
+                                    <br>
+                                    <h2 id="id_3" class="font-weight-lighter">Exciting goodies and merch worth<span id="id_5">&nbsp;50k+, </span>certificates of accomplishment, enthralling subscriptions and much more!</h2>
+                                    <h2 id="id_6">
+                                    </h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </section>
+
+                     
+            </section> 
 			<!-- section begin -->
             <section id="section-register">
                 <div class="wm wm-border dark wow fadeInDown">FAQ'S</div>
@@ -1284,14 +1777,15 @@
 			<!-- section begin -->
             <section id="call-to-action" class="gradient-to-right text-light call-to-action" aria-label="cta">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-8 col-md-7">
-                            <h3 class="size-2 no-margin">Get your seat before the price goes up</h3>
-                        </div>
-
-                        <div class="col-lg-4 col-md-5 text-right">
-                            <a href="#section-ticket" class="btn-custom text-white scroll-to">Get Ticket</a>
-                        </div>
+                    <div class="row  justify-content-center align-items-center" style="flex-direction: column;">
+                        <!-- <div class="col-lg-8 col-md-7">
+                            <h3 class="size-2 no-margin">Break the monotony with E-cell JUIT</h3>
+                        </div> -->
+                        <h3 class="size-2 text-center">Break the Monotony with TIEDC - JUIT</h3> <br>
+                        <!-- <div class="col-lg-4 col-md-5">
+                            <a href="#section-ticket" class="btn-custom text-white scroll-to">Register now</a>
+                        </div> -->
+                         <a href="https://register.tiedcjuit.in/" target="_blank" class="btn-custom text-white scroll-to">Register now</a>
                     </div>
                 </div>
             </section>
@@ -1365,8 +1859,10 @@
             <span></span>
         </span>
         <div class="de-extra-content">
-            <h3>About TIEDC</h3>
-            <p>
+            <h3 style="display: inline;">About TIEDC</h3>
+            <span style="padding:0% 15%"></span>
+            <img src="./images-event/team/logo_tiedc.png" width="20%" height="20%" alt="" style="padding-bottom: 0.5rem;">
+            <p style="margin-top: 1rem;">
                The Technology Incubation and Entrepreneurship Development cell of JUIT aims at developing an entrepreneurial spirit and shares a vision to foster innovation and budding ideas amongst the students.
             </p>
 
@@ -1374,9 +1870,10 @@
             
             <div class="p-4 border">
                 <div class="text-center">
-                    <h1>485 of 1000</h1>
-                   <p>Seats available</p>
-                    <a href="#section-ticket" class="btn-custom btn-fullwidth text-white scroll-to">Get Your Ticket</a>
+                    <!-- <h1>140+</h1>
+                   <p>Colleges</p> -->
+                   <img src="./images-event/misc/logo.png" width="70%" height="70%" alt="" style="padding-bottom: 1.5rem;">
+                    <a href="https://register.tiedcjuit.in/" target="_blank" class="btn-custom btn-fullwidth text-white scroll-to">Register now</a>
                 </div>
             </div>
 
@@ -1387,6 +1884,8 @@
             <!-- <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-map-marker id-color"></i>Palo Alto, California</div> -->
             <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-phone id-color"></i>+91 8572039226</div>
             <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-envelope-o id-color"></i>tiedc@juitsolan.in</div>
+            <div class="h6 padding10 pt0 pb0"><i class="i_h3 fa fa-globe fa-lg id-color"></i></i>tiedcjuit.in</div>
+
         </div>
     </div>
     <div id="de-overlay"></div>
