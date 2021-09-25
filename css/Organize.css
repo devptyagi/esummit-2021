@@ -76,7 +76,7 @@
     margin-bottom: -35px;
   }
   #id_4{
-    ont-size: 2rem;color: 
+    font-size: 2rem;color: 
      #f18c4f; text-align: 
      left;font-family: 'Rubik', sans-serif;
   }
@@ -86,5 +86,17 @@
   #id_6{
     font-size: 1rem;letter-spacing: 2px;text-align: left;font-family: 'Rubik', sans-serif; 
   }
+  /* #esummitheading{
+    margin-top: 5rem!important;
   }
-}
+  #presents{
+    margin-top: 15rem!important;
+    font-size: 0.7rem!important;
+  }
+  #logo-tiedc{
+    margin-right: 1rem;
+    width: 4rem!important;
+    height: 2.5rem!important;
+    margin-bottom: 0.5rem;
+  } */
+  }
