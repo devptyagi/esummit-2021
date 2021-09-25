@@ -1,3 +1,7 @@
+.hero-image{
+    left: 38rem;
+    top: 12rem;
+  }
 .num_1{
   font-size: 150px;
   /* margin-right: 900px; */
@@ -99,4 +103,47 @@
     height: 2.5rem!important;
     margin-bottom: 0.5rem;
   } */
+
+  
   }
+    @media only screen and (max-width: 769px){
+.hero-image{
+    left: 17rem;
+    top: 12rem;
+  }
+  .hero-image img{
+    width: 15rem;
+    height: 4.5rem;
+  }
+}
+  @media only screen and (max-width: 426px){
+.hero-image{
+    left: 9.5rem;
+    top: 7.5rem;
+  }
+  .hero-image img{
+    width: 9rem;
+    height: 3.5rem;
+  }
+}
+@media only screen and (max-width: 376px){
+.hero-image{
+    left: 8rem;
+    top: 7.5rem;
+  }
+  .hero-image img{
+    width: 8rem!important;
+    height: 3rem!important;
+  }
+}
+
+@media only screen and (max-width: 320px){
+.hero-image{
+    left: 6.5rem!important;
+    top: 6.5rem!important;
+  }
+  .hero-image img{
+    width: 8rem!important;
+    height: 2.5rem!important;
+  }
+}
