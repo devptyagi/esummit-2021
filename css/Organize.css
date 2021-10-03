@@ -32,43 +32,6 @@
   line-height: 2px;
 } */
 
-#id_1 {
-  color: #db7c43;
-  font-size: 7rem;
-  margin-bottom: -50px;
-}
-#id_2 {
-  font-size: 1.4rem;
-  text-align: left;
-  font-family: "Rubik", sans-serif;
-  letter-spacing: 2px;
-  padding-right: 50px;
-  margin-bottom: -20px;
-}
-#id_3 {
-  width: 90%;
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-  letter-spacing: 2px;
-  text-align: left;
-  font-family: "Rubik", sans-serif;
-  margin-bottom: -35px;
-}
-#id_4 {
-  ont-size: 2.2rem;
-  color: #f18c4f;
-  text-align: left;
-  font-family: "Rubik", sans-serif;
-}
-#id_5 {
-  color: #f18c4f;
-}
-#id_6 {
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-  text-align: left;
-  font-family: "Rubik", sans-serif;
-}
 .tshirt {
   margin-left: 950px;
   margin-bottom: -800px;
@@ -91,42 +54,6 @@
 }
 
 @media only screen and (max-width: 450px) {
-  #id_1 {
-    color: #db7c43;
-    font-size: 5rem;
-    margin-bottom: -50px;
-  }
-  #id_2 {
-    font-size: 0.9rem;
-    text-align: left;
-    font-family: "Rubik", sans-serif;
-    letter-spacing: 2px;
-    padding-right: 50px;
-    margin-bottom: -20px;
-  }
-  #id_3 {
-    font-size: 1rem;
-    letter-spacing: 2px;
-    letter-spacing: 2px;
-    text-align: left;
-    font-family: "Rubik", sans-serif;
-    margin-bottom: -35px;
-  }
-  #id_4 {
-    font-size: 2rem;
-    color: #f18c4f;
-    text-align: left;
-    font-family: "Rubik", sans-serif;
-  }
-  #id_5 {
-    color: #f18c4f;
-  }
-  #id_6 {
-    font-size: 1rem;
-    letter-spacing: 2px;
-    text-align: left;
-    font-family: "Rubik", sans-serif;
-  }
 
   .tiedc-hpced-logo {
     z-index: 100;
@@ -150,3 +77,83 @@
     display: none;
   }
 }
+
+.custo{
+  margin-right: 0px; margin-left: 0px; display: flex; flex-wrap: wrap; justify-content: flex-end;
+}
+
+.para1{
+  font-size: 7rem;
+}
+
+.para2{
+  font-size: 1.4rem;font-family: 'Rubik', sans-serif; letter-spacing: 2px; padding-right: 50px;
+}
+
+.para3{
+  font-size: 2.2rem;font-family: 'Rubik', sans-serif;
+}
+
+.para4{
+  width: 90%;font-size: 1.4rem;letter-spacing: 2px;font-family: 'Rubik', sans-serif;
+}
+
+.para5{
+  font-size: 1.4rem;letter-spacing: 2px;text-align: left;font-family: 'Rubik', sans-serif;
+}
+
+.pic{
+  height: 450px;
+}
+
+@media only screen and (max-width:1100px) {
+  .custo{
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 770px){
+  .allstuff{
+    min-width: 400px;
+  }
+  .custo{
+    justify-content: space-around;
+    margin-right: 10px;
+  }
+  
+  .para1{
+    font-size: 4rem;
+  }
+  
+  .para2{
+    font-size: 1rem; 
+    letter-spacing: 2px;
+  }
+  
+  .para3{
+    font-size: 1.4rem;
+    padding-bottom: 0px;
+  }
+  
+  .para4{
+    width: 90%;font-size: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  .para5{
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+  .pic{
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .allstuff{
+    min-width: 270px;
+  }
+  .pic{
+    height: 300px;
+  }
+  }
