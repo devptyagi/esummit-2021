@@ -66,6 +66,7 @@
   }
 }
 
+
 @media only screen and (max-width: 780px) {
   .tiedc-hpced-logo {
     z-index: 100;
@@ -157,3 +158,18 @@
     height: 300px;
   }
   }
+
+  .speaker-placeholder{
+    visibility: hidden;
+  }
+  @media only screen and (max-width: 768px) {
+
+  .speaker-placeholder{
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .speaker-placeholder1{
+    display: none!important;
+  }
+}
