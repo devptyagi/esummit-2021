@@ -157,6 +157,17 @@
   .pic{
     height: 300px;
   }
+  .imageflex{
+    flex-direction: column;
+
+  }
+  .remove-mobile{
+    display: none;
+  }
+  #paddingfix{
+    display: flex;
+    padding: 0.5rem 0;
+  }
   }
 
   .speaker-placeholder{
@@ -172,11 +183,9 @@
   .speaker-placeholder1{
     display: none!important;
   }
-  .imageflex{
-    flex-direction: column;
-  }
-  .remove-mobile{
-    display: none;
+  
+  .marginfix{
+    margin-top: -1.5rem;
   }
 }
 .imageflex{
