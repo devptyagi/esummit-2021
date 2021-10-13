@@ -172,4 +172,15 @@
   .speaker-placeholder1{
     display: none!important;
   }
+  .imageflex{
+    flex-direction: column;
+  }
+  .remove-mobile{
+    display: none;
+  }
+}
+.imageflex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
