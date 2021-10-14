@@ -150,7 +150,7 @@
   }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 426px){
   .allstuff{
     min-width: 270px;
   }
@@ -168,8 +168,27 @@
     display: flex;
     padding: 0.5rem 0;
   }
+  .marginfix10{
+    margin-bottom: 10px;
+  }
+  .marginfix20{
+    margin-bottom: 20px;
+  }
+  .marginfix35{
+    margin-bottom: -35px;
+  }
+  /* .mobfix{
+    margin-right:25px;                 
+  } */
+  
   }
 
+  @media only screen and (min-width:426px) {
+        .desktop-fix{
+    margin-right: -180px;
+     margin-left: -20px;
+  }                        
+  }
   .speaker-placeholder{
     visibility: hidden;
   }
